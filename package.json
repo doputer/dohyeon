@@ -1,0 +1,29 @@
+{
+  "name": "dohyeon",
+  "version": "0.1.0",
+  "private": false,
+  "description": "A CLI introducing me",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doputer/dohyeon"
+  },
+  "type": "module",
+  "author": {
+    "name": "Kim Dohyeon",
+    "email": "swputer@gmail.com"
+  },
+  "license": "MIT",
+  "bin": {
+    "dohyeon": "bin/cli.js"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "README.md"
+  ],
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^13.1.0",
+    "open": "^10.1.2"
+  }
+}
